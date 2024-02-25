@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.login {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://image.dienthoaivui.com.vn/x,webp,q90/https://dashboard.dienthoaivui.com.vn/uploads/wp-content/uploads/2022/12/background-tet1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.form_login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 30px 50px;
+}
+.form_login h1 {
+  font-size: 2.5rem;
+  margin-top: 18px;
+  text-align: center;
+}
+.log {
+  margin: 16px;
+  padding: 7px 15px;
+  border-radius: 20px;
+  text-decoration: none;
+  color: #fbfb7f;
+  font-size: 22px;
+  background-color: #dc392f;
+}
+.log:hover {
+  background-color: #fb5546;
+  cursor: pointer;
+}
+.block {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+label {
+  font-size: 1.2rem;
+  padding-bottom: 12px;
+  padding-top: 20px;
+}
+input {
+  margin: 10px;
+  padding: 7px 3px;
+  width: 270px;
+  text-overflow: none;
+  font-size: 1em;
+  outline: none;
+  border: 0;
+  background: transparent;
+  border-bottom: 1px solid #939393;
+}
+input:focus{
+  border-bottom: 2px solid #000;
+}

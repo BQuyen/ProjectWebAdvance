@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+.logo {
+  width: 7%;
+  margin: 10px 25px;
+  padding: 0;
+}
+.header-container {
+  background-color: #fdbda0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.header {
+  color: #89251b;
+  display: flex;
+  width: 100%;
+  height: auto;
+  align-items: center;
+}
+.header h1 {
+  text-align: center;
+  width: 100%;
+  font-size: 2.5rem;
+}
+.back-home-page {
+  width: 8%;
+}
+.back-home-page a {
+  color: #89251b;
+}
+.web-content-wrap {
+  background-color: #f3e8e2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content-container {
+  width: 80%;
+  margin-top: 45px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  background-color: azure;
+}
+.img {
+  margin-bottom: 20px;
+}
+.img img {
+  width: 100%;
+}
+.post-img {
+  margin-left: 25px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+h1 {
+  color: #89251b;
+  margin-bottom: 8px;
+  margin-left: 20px;
+  margin-top: 0;
+  font-size: 2.3rem;
+}
+.table {
+  background: #f9f9f9;
+  border: 1px solid #aaa;
+  padding: 10px;
+  margin: 1.4em;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+}
+.list {
+  margin-top: 1em;
+  list-style-type: none;
+}
+.list a {
+  text-decoration: none;
+  color: orange;
+}
+.list a:hover {
+  text-decoration: underline;
+  color: rgb(0, 0, 0);
+}
+
+p {
+  margin-left: 25px;
+  margin-right: 20px;
+}
+h2 {
+  color: orange;
+  margin-top: 16px;
+  margin-left: 27px;
+  margin-bottom: 15px;
+  margin-right: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+.footer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  background-color: #f3e8e2;
+  flex-direction: column;
+}
+.footer p {
+  padding-top: 30px;
+  color: #89251b;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: bold;
+}
+.web-icons {
+  padding: 20px;
+}
+.icons-cover {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.icons {
+  padding: 10px;
+  cursor: pointer;
+}
